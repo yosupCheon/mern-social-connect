@@ -1,8 +1,8 @@
-# Mern Social Connect (SNS) - MERN Stack Project
+# MERN Social Connect (SNS) - MERN Stack Project
 
 ## Project Overview
 
-Welcome to the Mern Social Connect (SNS) project! This README will provide you with an overview of what our project aims to achieve and the technologies we're using to build it.
+Welcome to the MERN Social Connect (SNS) project! This project is a social networking service developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It incorporates a range of fundamental and essential features commonly found in social networking platforms.
 
 ## Key Features (Work in Progress)
 
@@ -17,3 +17,5 @@ Our SNS project will aim to include the following key features:
 - **News Feed**: Users will have a personalized news feed that displays the latest posts and updates from their friends.
 
 - **Likes and Comments**: Users can engage with posts by liking them and leaving comments, promoting interactions and discussions.
+
+__I followed a MongoDB tutorial to guide me in setting up this project__
