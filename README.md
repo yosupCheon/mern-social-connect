@@ -6,7 +6,7 @@ Welcome to the MERN Social Connect (SNS) project! This project is a social netwo
 
 ## Key Features (Work in Progress)
 
-Our SNS project will aim to include the following key features:
+This SNS project will aim to include the following key features:
 
 - **User Authentication**: Users will be able to register an account and log in using one's ID and unique password.
 
@@ -18,4 +18,9 @@ Our SNS project will aim to include the following key features:
 
 - **Likes and Comments**: Users can engage with posts by liking them and leaving comments, promoting interactions and discussions.
 
-__I followed a MongoDB tutorial to guide me in setting up this project__
+## About the Project
+- For setting up the server, it referenced and followed the MongoDB MERN tutorial.
+- For setting up the server, it referenced and followed the MongoDB MERN tutorial.
+
+
+__Date Edit: September 3, 2023__
