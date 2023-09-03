@@ -20,7 +20,7 @@ This SNS project will aim to include the following key features:
 
 ## About the Project
 - For setting up the server, it referenced and followed the MongoDB MERN tutorial.
-- For setting up the server, it referenced and followed the MongoDB MERN tutorial.
+- For the routes, the variables for a user account edited.
 
 
 __Date Edit: September 3, 2023__
