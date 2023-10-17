@@ -99,11 +99,18 @@ recordRoutes.route("/record/find").post(function (req, res) {
   console.log("testzxc");
   db_connect.collection("records").findOne(myobj, function (err, result) {
     if (err) throw err;
-    res.json(result);  
+    //res.json(result);  
     if (result != undefined){
-      console.log(result);
-      console.log(result.name);
+      console.log("not undfined!!");
+      // console.log(result);
+      // console.log(result.name);
+      res.json(result);  
     }
+    else {
+      console.log("undfined...");
+      res.json({});  
+    }
+    
     //console.log(result);
   }); 
 
