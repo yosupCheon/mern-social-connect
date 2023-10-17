@@ -8,7 +8,7 @@ Welcome to the MERN Social Connect (SNS) project! This project is a social netwo
 
 This SNS project will aim to include the following key features:
 
-- **User Authentication**: Users will be able to register an account and log in using one's ID and unique password.
+- **User Authentication**: Users will be able to register an account and log in using their ID and unique password. (Login Success)
 
 - **User Profiles**: Users can create and customize their profiles, and provide basic information about themselves.
 
