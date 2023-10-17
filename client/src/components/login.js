@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Profile from './profile';
 import { useNavigate } from "react-router";
 export default function Login() {
  const [form, setForm] = useState({ 
@@ -30,23 +31,26 @@ export default function Login() {
     return;
   });
    //setForm({ name:"", userID: "", password: "" });
-   const record = await response.json();
-   setForm(record);
-   
-   if (response.ok) {
-        console.log(form.name); 
-        navigate("/");
+   console.log(response); 
 
-    } else {
-        console.log('test else');
+   if (response.ok) {
+
+    const record = await response.json();
+    // no account found
+    if (record.name === undefined){
+     navigate("/"); 
+    }
+    //found account
+    else {
+     setForm(record);   
+     navigate("/profile"); 
     }
     
-
-   //navigate("/");
+  }
+  else {
+    console.log('test else');
+  }
 }
-
-
-
 
   // This following section will display the form that takes the input from the user.
  return (
@@ -66,7 +70,7 @@ export default function Login() {
        <div className="form-group">
          <label htmlFor="password">Password</label>
          <input
-           type="text"
+           type="password"
            className="form-control"
            id="password"
            value={form.password}

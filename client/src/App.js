@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Login from "./components/login"; 
 import Create from "./components/create";
+import Profile from "./components/profile";
  const App = () => {
  return (
    <div>
@@ -12,6 +13,7 @@ import Create from "./components/create";
      <Routes>
        <Route exact path="/" element={<Login />} />
        <Route path="/create" element={<Create />} />
+       <Route path="/profile" element={<Profile />} />
      </Routes>
    </div>
  );
